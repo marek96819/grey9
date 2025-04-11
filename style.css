@@ -1,0 +1,33 @@
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    text-align: center;
+}
+img {
+    width: 200px;
+    margin: 20px 0;
+}
+button {
+    padding: 10px 20px;
+    background-color: #111;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #222;
+}
+.id {
+    word-break: break-all;
+    font-size: 0.9em;
+}
